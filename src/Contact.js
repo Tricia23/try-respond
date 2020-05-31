@@ -258,7 +258,7 @@ export default class Contact extends React.Component {
                     <TextValidator
                       name="type"
                       onChange={this.handleChange}
-                      placeholder="First Name"
+                      placeholder="Organization type"
                       type="text"
                       className="contact-input"
                       value={this.state.type}
@@ -305,7 +305,7 @@ export default class Contact extends React.Component {
                     <TextValidator
                       name="addressOne"
                       onChange={this.handleChange}
-                      placeholder="First Name"
+                      placeholder="Address"
                       type="text"
                       className="contact-input"
                       value={this.state.addressOne}
@@ -320,7 +320,7 @@ export default class Contact extends React.Component {
                     <TextValidator
                       name="addressTwo"
                       onChange={this.handleChange}
-                      placeholder="First Name"
+                      placeholder="Address two"
                       type="text"
                       className="contact-input"
                       value={this.state.addressTwo}
